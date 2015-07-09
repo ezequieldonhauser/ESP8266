@@ -2,14 +2,9 @@
 #define __USER_CONFIG_H__
 
 #define USE_WIFI_MODE		STATION_MODE
-#define WIFI_CLIENTSSID		"ZION"
-#define WIFI_CLIENTPASSWORD	"P4$$w0rd"
-#define WIFI_AP_NAME		"00000000"
-#define WIFI_AP_PASSWORD	"00000000"
-//#define TCPSERVERIP			"192.168.0.239"
+#define WIFI_CLIENTSSID		"router ssid"
+#define WIFI_CLIENTPASSWORD	"router password"
 #define TCPSERVERPORT		1000
-//#define PLATFORM_DEBUG		true
-//#define LWIP_DEBUG		true
 
 //IP E PORTA UDP PARA ENVIO E RECEBIMENTO
 #define UDP_BROADCAST_IP    "192.168.0.239"
