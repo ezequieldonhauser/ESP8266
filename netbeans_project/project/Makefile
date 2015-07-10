@@ -27,7 +27,7 @@ LD_OPTIONS =-nostdlib -Wl,--no-check-sections -u call_user_start -Wl,-static \
 SDK_TOOLS=$(ROOT)/utils
 GCC_LIBS=-L$(ROOT)/lib
 LD_LIBS=c gcc hal phy pp net80211 lwip wpa main
-LD_SCRIPT=-T$(ROOT)/script.ld
+LD_SCRIPT=-T$(ROOT)/script1.ld
 INCLUDE=$(ROOT)
 
 #insira aqui os objetos para serem gerados (corespondem a cada arquivo .c)
